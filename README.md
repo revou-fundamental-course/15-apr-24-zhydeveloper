@@ -6,9 +6,8 @@ Aplikasi Konversi Suhu sederhana yang memungkinkan pengguna untuk mengubah suhu 
 
 ## Fitur
 
-- **Bentuk Input Suhu**: Pengguna dapat memasukkan nilai suhu dalam bentuk Celcius atau Fahrenheit.
+- **Bentuk Input Suhu**: Pengguna dapat memasukkan nilai suhu dalam bentuk Celcius ke Fahrenheit.
 - **Konversi Suhu Tampilan**: Hasil konversi ditampilkan secara real-time.
-- **Penjelasan Hasil Konversi**: Penjelasan singkat tentang hasil konversi ditampilkan.
 - **Validasi Suhu Formulir Input**: Validasi dilakukan untuk memastikan bahwa nilai yang dimasukkan adalah angka.
 - **Logika Konversi**: Logika konversi suhu dari Celcius ke Fahrenheit dan sebaliknya diimplementasikan menggunakan JavaScript.
 - **Kalkulator Suhu**: Kalkulator suhu berfungsi pada halaman web yang sama.

@@ -23,10 +23,6 @@ Aplikasi Konversi Suhu sederhana yang memungkinkan pengguna untuk mengubah suhu 
 - CSS
 - JavaScript
 
-## Demo
-
-Anda dapat melihat demo aplikasi di [sini](link_demo).
-
 ## Instalasi
 
 1. Clone repositori ini:

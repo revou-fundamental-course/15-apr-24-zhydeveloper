@@ -1,0 +1,85 @@
+.judul {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    margin: 2rem;
+    border-radius: 5px;
+    padding: 1.3rem;
+}
+
+textarea {
+    width: 80%;
+    height: 40px;
+    resize: none;
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.button-Submit {
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(5, 178, 5);
+}
+
+.button-Reset {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    color: white;
+    background-color:rgb(228, 8, 8);
+    box-shadow: 1px 1px 1px black;
+}
+
+.button-Reverse {
+    border: none;
+    cursor: pointer;
+    padding: 10px; 
+    box-shadow: 1px 1px 1px black;
+    border-radius: 7px;
+    color: white;
+    background-color:rgb(255, 157, 174);
+}
+
+.button-Submit:hover {
+    background-color:  rgb(9, 218, 9);
+}
+
+.button-Reset:hover {
+    background-color: red;
+}
+
+.button-Reverse:hover {
+    background-color: pink;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+span {
+    font-size: 1.1rem;
+    /* font-weight: bold; */
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+    font-style: italic;
+}

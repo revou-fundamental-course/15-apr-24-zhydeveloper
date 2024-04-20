@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azhy Sholihin Konversi Suhu</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="judul">AZHY SHOLIHIN KONVERSI SUHU</h1>
+      <section>
+        <!-- celciuss -->
+        <div>
+          <h1>Celcius(&deg;C.)</h1>
+          <textarea id="inptTextCel"></textarea>
+        </div>
+        <button id="btnKonversi" class="button-Submit">Konversi</button>
+        <button id="btnReset" class="button-Reset">Reset</button>
+        <button id="btnReverse" class="button-Reverse">Reverse</button>
+        <!-- fahrenheit -->
+        <div>
+          <h1>Fahrenheit(&deg;F.)</h1>
+          <textarea id="inptTextFar"></textarea>
+        </div>
+        <div>
+          <h1>Cara Kalkulasi</h1>
+          <textarea id="inptTextCalculation" style="height: 70px">
+90&deg;C * (9/5) + 32 = 194&deg;F</textarea
+          >
+        </div>
+
+        <!--Keterangan-->
+        <div>
+          <article><a href="#">Fahrenheit ke Celcius</a></article>
+          <article>
+            <h3>Cara Konversi Dari Celcius(&deg;C) ke Fahrenheit(&deg;F)</h3>
+          </article>
+          <hr />
+          <article>
+            <p>
+              Suhu <span>S</span> derajat Fahrenheit(&deg;F) sama dengan suhu
+              <span>S</span> dalam derajat Celcius(&deg;C) kali
+              <span>9/5 </span>tambah <span>32. </span>
+            </p>
+            <p>S <sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32</p>
+            <h5>atau</h5>
+            <p>S<sub>(&deg;F)</sub> = (S <sub>(&deg;C)</sub> x 1.8) + 32</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -12,6 +12,7 @@ function fahrenheitToCelsius(fahrenheit) {
 function resetInputs() {
   document.getElementById('inptTextCel').value = '';
   document.getElementById('inptTextFar').value = '';
+  document.getElementById('inptTextCalculation').value = '';
 }
 
 // Function to reverse the conversion from Celsius to Fahrenheit
@@ -33,20 +34,20 @@ function reverseFahrenheitToCelsius() {
 }
 
 // Function to display calculation formula
-function calculasiOn() {
-  var result = document.getElementById('inptTextFar').value;
-  if(result !== '') {
-      var celValue = fahrenheitToCelsius(parseFloat(result));
-      var calculationText = "Rumus untuk mengonversi suhu dari Fahrenheit ke Celsius adalah: C = (" + result + " - 32) * 5/9";
+function calculasiOnCel() {
+  var resultCel = document.getElementById('inptTextCel').value;
+  if(resultCel !== '') {
+      var farValue = celsiusToFahrenheit(parseFloat(resultCel));
+      var calculationText = "Rumus untuk mengonversi suhu dari Celsius ke Fahrenheit adalah: F = (" + resultCel + " * 9/5) + 32 ";
       document.getElementById('inptTextCalculation').value = calculationText;
   }
 }
 
-function calculasiOn() {
-  var result = document.getElementById('inptTextCel').value;
-  if(result !== '') {
-      var celValue = fahrenheitToCelsius(parseFloat(result));
-      var calculationText = "Rumus untuk mengonversi suhu dari Celcius ke Fahrenheit  adalah: F = (" + result + " + 32) * 9/5";
+function calculasiOnFar() {
+  var resultFar = document.getElementById('inptTextFar').value;
+  if(resultFar !== '') {
+      var celValue = fahrenheitToCelsius(parseFloat(resultFar));
+      var calculationText = "Rumus untuk mengonversi suhu dari Fahrenheit ke Celcius adalah: C = ("+ resultFar + " - 32) * 5/9 " ;
       document.getElementById('inptTextCalculation').value = calculationText;
   }
 }
@@ -55,4 +56,5 @@ function calculasiOn() {
 document.getElementById('btnKonversi').addEventListener('click', reverseCelsiusToFahrenheit);
 document.getElementById('btnReset').addEventListener('click', resetInputs);
 document.getElementById('btnReverse').addEventListener('click', reverseFahrenheitToCelsius);
-document.getElementById('btnKonversi').addEventListener('click', calculasiOn);
+document.getElementById('btnKonversi').addEventListener('click', calculasiOnCel);
+document.getElementById('btnReverse').addEventListener('click', calculasiOnFar);
